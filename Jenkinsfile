@@ -1,4 +1,7 @@
 node{
   
-  stage(preparation){
-    git '
+  stage('Build){
+        sh app.py
+        }
+        }
+   
