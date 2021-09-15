@@ -1,7 +1,7 @@
 node{
   
-  stage('Build){
-        sh app.py
-        }
-        }
+  stage('Build'){
+    sh app.py
+  }
+}
    
