@@ -1,7 +1,14 @@
 node{
   
   stage('Build'){
-    sh app.py
+    agent{
+      docker{
+        image 'python:2-alpine'
+      }
+    }
+    steps{
+      sh 'python -m app.py
   }
+}
 }
    
