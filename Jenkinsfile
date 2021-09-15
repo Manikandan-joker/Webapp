@@ -7,7 +7,7 @@ node{
       }
     }
     steps{
-      sh 'python -m app.py
+      sh 'python -m app.py'
   }
 }
 }
