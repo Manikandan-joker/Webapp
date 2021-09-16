@@ -20,7 +20,7 @@ pipeline {
 	    stage('dockerbuild') {
 
 			steps {
-				sh 'docker build -t Webapp/app:latest .'
+				sh 'docker build -t webapp/app:latest .'
 			}
 		}
 
@@ -34,7 +34,7 @@ pipeline {
 		stage('Push') {
 
 			steps {
-				sh 'docker push Webapp/app:latest'
+				sh 'docker push webapp/app:latest'
 			}
 		}
 	}
