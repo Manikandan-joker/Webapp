@@ -34,7 +34,7 @@ pipeline {
 		stage('Push') {
 
 			steps {
-				sh 'docker push webapp/app:latest'
+				sh 'docker push joker111297/demo:latest'
 			}
 		}
 	}
