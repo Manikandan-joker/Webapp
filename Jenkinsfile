@@ -20,7 +20,7 @@ pipeline {
 	    stage('dockerbuild') {
 
 			steps {
-				sh 'docker build -t webapp/app:latest .'
+				sh 'docker build -t joker111297/demo:latest .'
 			}
 		}
 
